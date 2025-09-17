@@ -51,5 +51,5 @@ def plot_training_curves(run_dir):
 if __name__ == "__main__":
     # Scripts folder se ek level upar jaa kar runs folder target kar raha hai
     base_dir = os.path.dirname(os.path.dirname(__file__))
-    run_dir = os.path.join(base_dir, "runs", "phase1_v8n")
+    run_dir = os.path.join(base_dir, "runs", "tuned_v8n")
     plot_training_curves(run_dir)
