@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE/editor specific
+.vscode/
+.idea/
+
+# YOLOv8 specific
+runs/              
+dataset/          
+*.pt              
+*.onnx            
+*.engine          
+*.tflite          
+*.pb              
+*.bin
+*.xml
+
+# Checkpoints
+checkpoints/
